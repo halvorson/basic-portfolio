@@ -85,7 +85,6 @@
 	.portfolio-row {
 		margin-top: 30px;
 		width: 100%;
-		background-color: #433447;
 		overflow: auto;
 	}
 
@@ -127,13 +126,19 @@
 		float: left;
 		overflow: auto;
 		background-color: #ffffff;
+		border-color: #dddddd;
+		border-style: solid;
+		border-width: 1px;
 	}
 
 	.sidebar {
 		width: 270px;
 		float: right;
 		overflow: auto;
-		background-color: #D16B54;
+		background-color: #ffffff;
+		border-color: #dddddd;
+		border-style: solid;
+		border-width: 1px;
 	}
 
 	.social-links {
@@ -148,7 +153,6 @@
 
 	.content-nest{
 		margin: 20px;
-		background-color: #A9D8C8;
 		overflow: auto; 
 		padding: auto;
 	}
