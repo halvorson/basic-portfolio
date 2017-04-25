@@ -7,11 +7,17 @@
 		font-size: 18px;
 		line-height: 150%;
 		color: #777777;
+		background-image: url("../images/topo-background.png");
+    	background-color: #eeeeee;
 	}
 
 	header {
 		overflow: auto;
 		background-color: #ffffff;
+		border-bottom: solid;
+		border-bottom-width: 3px;
+		border-bottom-color: #ccc;
+		margin-bottom: 20px;
 	}
 
 	footer {
@@ -33,10 +39,13 @@
 
 	h2 {
 		font-family: 'Georgia', Times, Times New Roman, serif;
-		padding: 15px 0;
+		padding: 15px 0 20px;
 		font-size: 24px;
 		text-align: left;
 		color: #4aaaa5;
+		border-bottom: solid;
+		border-bottom-color: #ccc;
+		border-bottom-width: 4px;
 	}
 
 	h3 {
@@ -44,6 +53,9 @@
 		padding: 15px 0;
 		text-align: left;
 		color: #4aaaa5;
+		border-bottom: solid;
+		border-bottom-color: #ccc;
+		border-bottom-width: 3px;
 	}
 
 	p {
@@ -68,12 +80,9 @@
 		width: 960px;
 		margin: 0 auto 60px;
 		overflow: auto;
-		border-color: #cccccc;
-		border-top: 20px;
 	}
 	
 	.portfolio-row {
-		height: 250px;
 		margin-top: 30px;
 		width: 100%;
 		background-color: #433447;
@@ -82,12 +91,14 @@
 
 	.portfolio-item {
 		width: 280px;
+		overflow: auto;
 		height: 250px;
 		background-color: #ccc;
 	}
 
 	.portfolio-photo {
 		position: absolute;
+		overflow: auto;
 		z-index: 1;
 	}
 
@@ -102,9 +113,9 @@
 
 	.portfolio-label {
 		position: relative;
-		top: 150px;
+		top: 190px;
 		width: 280px;
-		padding: 20px 0px;
+		padding: 10px 0px;
 		background-color: #4aaaa5;
 		z-index: 2;
 		text-align: center;
@@ -121,19 +132,31 @@
 	.sidebar {
 		width: 270px;
 		float: right;
-		height: 200px;
+		overflow: auto;
 		background-color: #D16B54;
+	}
+
+	.social-links {
+		margin: auto;
+		overflow: auto;
+	}
+
+	.social-link {
+		height: 60px;
+		width: 60px;
 	}
 
 	.content-nest{
 		margin: 20px;
 		background-color: #A9D8C8;
-		overflow:auto; 
+		overflow: auto; 
+		padding: auto;
 	}
 	
-	#header-container {
+	.header-container {
 		width: 960px;
 		margin: 0 auto;
+		overflow: auto;
 	}
 
 	#name {
@@ -146,4 +169,11 @@
 	#navBar {
 		float: right;
 		padding-top: 30px;
+		color: #ccc;
+	}
+
+	#navBar a {
+		color: #ccc;
+		text-decoration: none;
+		overflow: auto;
 	}

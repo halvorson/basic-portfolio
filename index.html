@@ -6,21 +6,21 @@
 	<meta charset="UTF-8">
 	<title>My Student Bio</title>
 
-	<!-- Bootstrap Core CSS -->
-	<link href="assets/css/style.css" rel="stylesheet">
+	<!-- <link href="assets/css/reset.css" rel="stylesheet"> -->
 
+	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<div id="header-container">	
+		<div class="header-container">	
 			<div id="name">
 				<h1>Michael Halvorson</h1>
 			</div>
 			<div id="navBar">
-				<a href="portfolio.html">About</a> | 
+				<a href="index.html">About</a> | 
 				<a href="portfolio.html">Portfolio</a> | 
-				<a href="portfolio.html">Contact</a> 
+				<a href="contact.html">Contact</a> 
 			</div>
 		</div>
 	</header>
@@ -29,33 +29,42 @@
 		<section id="portfolio" class="main-section">
 			<div class="content-nest">
 				<h2>Portfolio</h2>
-				<hr>
 				<div class="portfolio-row">
 					<div class="portfolio-item pleft">
 						<div class="portfolio-photo">
-							<img src="http://placehold.it/280x250">
+							<img src="http://lorempixel.com/280/250/abstract/1">
 						</div>
 						<div class="portfolio-label">Test 1</div>
 					</div>
-					<div class="portfolio-item pright">
-						<div class="portfolio-photo">
-							<img src="http://placehold.it/280x250">
+					<a href="#">
+						<div class="portfolio-item pright">
+							<div class="portfolio-photo">
+								<img src="http://lorempixel.com/280/250/abstract/2">
+							</div>
+							<div class="portfolio-label">Test 2 (full-sized link)</div>
 						</div>
-						<div class="portfolio-label">Test 2</div>
-					</div>
+					</a>
 				</div>
 				<div class="portfolio-row">
 					<div class="portfolio-item pleft">
 						<div class="portfolio-photo">
-							<img src="http://placehold.it/280x250">
+							<img src="http://lorempixel.com/280/250/abstract/3">
 						</div>
 						<div class="portfolio-label">Test 3</div>
 					</div>
 					<div class="portfolio-item pright">
 						<div class="portfolio-photo">
-							<img src="http://placehold.it/280x250">
+							<img src="http://lorempixel.com/280/250/abstract/4">
 						</div>
 						<div class="portfolio-label">Test 4</div>
+					</div>
+				</div>
+				<div class="portfolio-row">
+					<div class="portfolio-item pleft">
+						<div class="portfolio-photo">
+							<img src="http://lorempixel.com/280/250/abstract/5">
+						</div>
+						<div class="portfolio-label">Test 5</div>
 					</div>
 				</div>
 			</div>
@@ -65,8 +74,11 @@
 		<div class="sidebar">
 			<div class="content-nest">
 				<h3>Connect with me!</h3>
-				<hr>
-
+				<div class="social-links">
+					<a href="https://www.linkedin.com/in/michaelthalvorson/"><img class="social-link" src="assets/images/link-linkedin.png"></a>
+					<a href="https://github.com/halvorson/"><img class="social-link" src="assets/images/link-github.png"></a>
+					<a href="http://stackoverflow.com/users/3241536/halvorson"><img class="social-link" src="assets/images/link-stackoverflow.png"></a>
+				</div>
 			</div>
 		</div>
 
