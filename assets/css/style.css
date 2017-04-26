@@ -8,7 +8,7 @@
 		line-height: 150%;
 		color: #777777;
 		background-image: url("../images/topo-background.png");
-    	background-color: #eeeeee;
+		background-color: #eeeeee;
 	}
 
 	header {
@@ -31,16 +31,16 @@
 	}
 
 	h1 {
-		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-family: 'Georgia', Times, "Times New Roman", serif;
 		font-size: 28px;
 		color: #eee;
 		text-align: center;
 	}
 
 	h2 {
-		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-family: 'Georgia', Times, "Times New Roman", serif;
 		padding: 15px 0 20px;
-		font-size: 24px;
+		font-size: 28px;
 		text-align: left;
 		color: #4aaaa5;
 		border-bottom: solid;
@@ -49,7 +49,7 @@
 	}
 
 	h3 {
-		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-family: 'Georgia', Times, "Times New Roman", serif;
 		padding: 15px 0;
 		text-align: left;
 		color: #4aaaa5;
@@ -78,7 +78,7 @@
 
 	.container {
 		width: 960px;
-		margin: 0 auto 60px;
+		margin: 0 auto 80px;
 		overflow: auto;
 	}
 	
@@ -147,8 +147,8 @@
 	}
 
 	.social-link {
-		height: 60px;
-		width: 60px;
+		height: 50px;
+		width: 50px;
 	}
 
 	.content-nest{
@@ -180,4 +180,40 @@
 		color: #ccc;
 		text-decoration: none;
 		overflow: auto;
+	}
+
+	#bio-image {
+		float: left;
+		margin-right: 20px;
+	}
+
+	#contact-me {
+	}
+
+	#contact-me input[type=submit] {
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		background-color: #4aaaa5;
+		border: none;
+		color: #eee;
+		padding: 10px 30px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	#contact-me input[type=text], input[type=email] {
+		width: calc(100% - 16px);
+		padding: 6px;
+		margin-bottom: 10px;
+	}
+
+	#contact-me textarea {
+		width: calc(100% - 14px);
+		padding: 6px;
+		height: 100px;
+		border: solid;
+		border-width: 1px;
+		border-color: #ccc;
+		margin-bottom: 10px;
 	}
